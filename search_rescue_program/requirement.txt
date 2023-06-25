@@ -1,0 +1,33 @@
+Requirements:
+
+*Python 3.x installed on your system.
+
+*OpenCV (cv2) library installed. You can install it using the command: pip install opencv-python.
+
+*Numpy library installed. You can install it using the command: pip install numpy.
+
+
+*Matplotlib library installed. You can install it using the command: pip install matplotlib.
+
+*PIL (Python Imaging Library) installed. You can install it using the command: pip install Pillow.
+
+Instructions:
+
+Download the SAROPS program script from the following location: search_rescure_Bayes_program.py.
+Save the script to a directory on your local system.
+Running the Program:
+
+Open a command prompt or terminal.
+Navigate to the directory where you saved the SAROPS script using the cd command.
+Run the SAROPS program by executing the following command: python sarops_script.py.
+The program will display a menu with search options. Choose an option by entering the corresponding number and pressing Enter.
+Follow the on-screen instructions to continue the search operation.
+The program will display the search areas, last known position, and search coordinates on a map.
+The search results and updated probabilities will be shown in the console.
+Important Note:
+Please ensure that the following line in the SAROPS script is updated with the correct path to the map image file:
+
+python
+Copy code
+MAP_FILE = "C:/path/to/your/map/image.jpg"
+Replace "C:/path/to/your/map/image.jpg" with the actual file path of your map image.
